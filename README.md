@@ -64,3 +64,9 @@ We should be able to run your test suite by changing to the `brevets` directory 
 ## Authors
 
 Michal Young, Ram Durairajan. Updated by Ali Hassani.
+## Author
+Catherine Raj
+## Brief Description
+The project is based of off the RUSA's online calculator. It involves using an algorithm from RUSA.  We are using the calculator to develop test data
+## Information
+craj@uoregon.edu
