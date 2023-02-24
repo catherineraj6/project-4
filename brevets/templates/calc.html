@@ -123,8 +123,14 @@
               var km = control.find("input[name='km']").val();
               var open_time_field = control.find("input[name='open']");
               var close_time_field = control.find("input[name='close']");
+              var control_dist = document.getElementByID('brevet_dist_km').value;
+              var start_time = document.getElementById("begin_date").value;
 
-              $.getJSON(TIME_CALC_URL, {km: km}).done(
+              console.log(control_dist);
+              console.log( start_time);
+
+
+              $.getJSON(TIME_CALC_URL, {km: km,control_dist:control_dist,start_time:start_time}).done(
                 function(data) {
                    var times = data.result;
                    console.log("Got a response: ");
